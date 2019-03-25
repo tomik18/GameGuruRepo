@@ -1425,7 +1425,7 @@ DARKSDK DWORD InitDisplayEx(DWORD dwDisplayType, DWORD dwWidth, DWORD dwHeight, 
 	ShowWindow(g_pGlob->hWnd, SW_HIDE);
 
 	//Setup Holographic Space for Window to support Windows Mixed Reality
-	GGWMR_GetHolographicSpace();
+	///GGWMR_GetHolographicSpace();
 	ShowWindow(g_pGlob->hWnd, SW_SHOW);
 
 

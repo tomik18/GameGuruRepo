@@ -17,9 +17,9 @@
 //	Setup Commands
 //*********************************
 
-DLLEXPORT void GGWMR_GetHolographicSpace();
-DLLEXPORT int GGWMR_GetDirect3DDevice_HighPart();
-DLLEXPORT int GGWMR_GetDirect3DDevice_LowPart();
+//DLLEXPORT void GGWMR_GetHolographicSpace();
+//DLLEXPORT int GGWMR_GetDirect3DDevice_HighPart();
+//DLLEXPORT int GGWMR_GetDirect3DDevice_LowPart();
 
 
 /*

@@ -13,6 +13,7 @@
 #include "stdafx.h"
 #include <string>
 
+/*
 #include "CCameraC.h"
 #include "CImageC.h"
 #include "CObjectsC.h"
@@ -77,6 +78,7 @@ DBPRO_GLOBAL ComPtr<ABI::Windows::Graphics::Holographic::IHolographicSpace> spHo
 // SpatialLocator that is attached to the default HolographicDisplay.
 DBPRO_GLOBAL SpatialLocator         m_spatialLocator = nullptr;
 DBPRO_GLOBAL SpatialStationaryFrameOfReference	m_referenceFrame = nullptr;
+*/
 
 /*
 const int GGVR_LEye = 0;
@@ -217,6 +219,7 @@ void GGVR_UpdatePoses(void);
 
 */
 
+/*
 BOOL APIENTRY GGWMRMain(HMODULE hModule,
 	DWORD  ul_reason_for_call,
 	LPVOID lpReserved
@@ -260,13 +263,6 @@ void GGWMR_GetHolographicSpace()
 
 	m_spatialLocator = SpatialLocator::GetDefault();
 	m_referenceFrame = m_spatialLocator.CreateStationaryFrameOfReferenceAtCurrentLocation();
-/*
-	std::ofstream myfile;
-	myfile.open("example.txt");
-	myfile << "HighPart: " << GGWMR_GetDirect3DDevice_HighPart() << "\n";
-	myfile << "LowPart: " << GGWMR_GetDirect3DDevice_LowPart() << "\n";
-	myfile.close();
-*/
 }
 
 int GGWMR_GetDirect3DDevice_HighPart()
@@ -283,6 +279,7 @@ int GGWMR_GetDirect3DDevice_LowPart()
 
 	return (int)ID.LowPart;
 }
+*/
 
 //*********************************
 //	Setup Commands

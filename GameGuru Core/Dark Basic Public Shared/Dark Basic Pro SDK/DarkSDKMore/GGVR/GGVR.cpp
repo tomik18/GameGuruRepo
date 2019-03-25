@@ -164,6 +164,7 @@ std::string GetTrackedDeviceString(vr::IVRSystem *pHmd, vr::TrackedDeviceIndex_t
 void GGVR_Mat34toYPR(vr::HmdMatrix34_t *Mat, vr::HmdVector3_t *YPR, vr::HmdVector3_t *Pos);
 void GGVR_UpdatePoses(void);
 
+/*
 BOOL APIENTRY DllMain(HMODULE hModule,
 	DWORD  ul_reason_for_call,
 	LPVOID lpReserved
@@ -172,6 +173,7 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 
 	return TRUE;
 }
+*/
 
 //*********************************
 //	Setup Commands
@@ -198,7 +200,7 @@ int	GGVR_IsRuntimeInstalled()
 
 int	GGVR_Init(int RImageID, int LImageID, int RCamID, int LCamID, int ObjBase, int ObjHead, int ObjOrigin, int ObjRightHand, int ObjLeftHand)
 {
-
+	/*
 	//Set Onject ID's for Player dummy objects
 	GGVR_Player.ObjBase = ObjBase;
 	GGVR_Player.ObjHead = ObjHead;
@@ -327,6 +329,7 @@ int	GGVR_Init(int RImageID, int LImageID, int RCamID, int LCamID, int ObjBase, i
 	GGVR_RightEyeProjection._41 = HMDMat_Right.m[3][0]; GGVR_RightEyeProjection._42 = HMDMat_Right.m[3][1]; GGVR_RightEyeProjection._43 = HMDMat_Right.m[3][2]; GGVR_RightEyeProjection._44 = HMDMat_Right.m[3][3];
 	
 	GGVR_Player.Create();
+	*/
 
 	return 0;
 }
