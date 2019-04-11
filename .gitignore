@@ -85,3 +85,7 @@ sh.exe.stackdump
 GameGuru/Guru-MapEditor.ilk
 GameGuru/Files/mapbank/worklevel.dat
 GameGuru/Files/editors/gridedit/worklevel.fpm
+GameGuru Core/SDK/DirectXTex/DirectXTex/Bin(renameinsteadofbuild)/Desktop_2015/Win32/Debug(renameinsteadofbuild)/DirectXTex.lib
+GameGuru Core/SDK/DirectXTex/DirectXTex/Bin(renameinsteadofbuild)/Desktop_2015/Win32/Release(renameinsteadofbuild)/DirectXTex.lib
+GameGuru Core/SDK/DirectXTex/DirectXTex/Bin(renameinsteadofbuild)/Desktop_2015/Win32/Release(renameinsteadofbuild)/DirectXTex.lib
+GameGuru Core/SDK/DirectXTex/DirectXTex/Bin(renameinsteadofbuild)/Desktop_2015/Win32/Debug(renameinsteadofbuild)/DirectXTex.lib
